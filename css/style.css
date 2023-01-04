@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+
+
+body {
+    background: rgba(180, 180, 179, 0.589);
+    font-family: 'Moon Dance', cursive;
+}
+.wrapper {
+    border: thin solid gray;
+    height: 500px;
+    margin: 0 20%;
+    margin-top: 150px;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    background: rgba(19, 78, 85, 0.699);
+}
+
+.wrapper h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: 56px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    letter-spacing: .6ch;
+}
+
+.wrapperOne {
+    text-align: center;
+    margin-top: 0%;
+}
+
+.wrapperTwo {
+    text-align: center;
+    margin-top: 0;
+    display: none;
+}
+
+.wrapperOne h3, .wrapperTwo h3 {
+    font-size: 42px;
+    color: rgba(7, 7, 7, 0.699);
+    letter-spacing: 3px;
+
+}
+
+.wrapperOneInput, .wrapperTwoInput {
+    margin-top: 10px;
+    padding: 17px 15px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+}
+
+.wrapperOneButton, .wrapperTwoButton {
+    padding: 14px 30px;
+    font-size: 13px;
+    color: rgb(63, 63, 62);
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.error {
+    color: red;
+    font-size: 34px;
+
+}
+
+.success {
+    color: rgb(41, 78, 41);
+    font-size: 44px;
+
+}
+
+.chance {
+    color: black;
+    font-size: 30px;
+}
